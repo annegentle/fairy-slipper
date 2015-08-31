@@ -1,0 +1,19 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0",
+    "title": "Get Actions",
+    "description": "Allows for multiple requests on a GET request returning
+                    a status of the request.",
+    "x-get-action-pathItem": {
+      "type": "object",
+      },
+        "x-get-extended": {
+          "$ref": "#/definitions/operation"
+        },
+        "parameters": {
+          "$ref": "#/definitions/parametersList"
+        }
+      }
+    }
+}

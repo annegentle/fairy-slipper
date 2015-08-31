@@ -12,7 +12,7 @@ A project to make OpenStack API's self documententing.
 Features
 --------
 
-* TODO
+* TODO list here: http://specs.openstack.org/openstack/docs-specs/specs/liberty/api-site.html#work-items
 
 Development
 -----------
@@ -38,6 +38,15 @@ To develop the AngularJS component, it's easiest if you use the grunt webserver:
 
 You will still need to run the Fairy-Slipper webserver, but this will
 enable auto reloading if you visit the port http://127.0.0.1:9000
+
+Background and Plan
+-------------------
+
+`Rework API Reference Information`_ is the specification for building this tool
+summarized by: "The OpenStack API Reference site needs an update and better methods for maintaining and providing accurate information for application developers using different cloud provider’s cloud resources."
+
+.. _Rework API Reference Information: http://specs.openstack.org/openstack/docs-specs/specs/liberty/api-site.html
+>>>>>>> 7f90147... Adds extension document for Swagger to enable GET actions
 
 Directory Structure (Future)
 ----------------------------
